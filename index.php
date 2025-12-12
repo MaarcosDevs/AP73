@@ -9,9 +9,9 @@ $_SESSION['Color1'] = $color1;
 $_SESSION['Color2'] = $color2;
 ?>
 <form action="" method="POST">
-    <label>Ingresa tu numre: </label><input type="text" name="nombre"><br></br>
-    <label>Elije el color de la pagina 1: </label><input type="text" name="pag1"><br></br>
-    <label>Elije el color de la pagina 2: </label><input type="text" name="pag2"><br>
+    <label>Ingresa tu nombre: </label><input type="text" name="nombre" ><br></br>
+    <label>Elije el color de la pagina 1: </label><input type="color" name="pag1" ><br></br>
+    <label>Elije el color de la pagina 2: </label><input type="color" name="pag2" ><br>
     <input type="submit">
 </form>
 <a href="pagina1.php">pagina1</a>
